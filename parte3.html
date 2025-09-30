@@ -7,13 +7,18 @@
 </head>
 <body>
     <script>
-        let esMayorEdad = false;
-        let tieneLicencia = true;
+        let esMayorDeEdad = true
+        let tieneLicencia = false
 
-        let puedeConducir = esMayorEdad && tieneLicencia;
-        console.log("¿Puede conducir?", puedeConducir);
-        let errorConducir = esMayorEdad || tieneLicencia;
-        console.log("¿Puede conducir?", errorConducir);
+        //Operadores Logicos
+
+        console.log("¿Puede conducir?: ", esMayorDeEdad && tieneLicencia)
+        console.log("¿Puede conducir?: ", esMayorDeEdad || tieneLicencia)
+
+        //Concatenacion
+
+        let mensaje = "Bienvenidos"
+        console.log("Hola Todos", mensaje)
     </script>
 </body>
 </html>
